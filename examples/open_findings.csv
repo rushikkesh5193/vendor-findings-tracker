@@ -1,0 +1,14 @@
+finding,vendor,severity,age_days,days_overdue,escalation_required,escalation_recorded,owner
+F01,Northwind Payroll,critical,52,37,senior leadership,senior leadership,A. Menon
+F02,Contoso Cloud,high,64,34,senior leadership,owner,R. Iyer
+F03,Fabrikam KYC,medium,95,13,owner,owner,R. Iyer
+F04,Tailspin Messaging,high,13,0,none,none,A. Menon
+F05,Adatum Analytics,high,83,0,none,none,A. Menon
+F15,Litware Support,high,11,0,none,none,A. Menon
+F17,Wingtip Travel,high,8,0,none,none,A. Menon
+F11,Contoso Cloud,medium,38,0,none,none,A. Menon
+F14,Adatum Analytics,medium,18,0,none,none,A. Menon
+F16,Proseware Print,medium,21,0,none,none,A. Menon
+F10,V99,low,8,0,none,none,A. Menon
+F12,Fabrikam KYC,low,52,0,none,none,A. Menon
+F13,Tailspin Messaging,low,22,0,none,none,A. Menon

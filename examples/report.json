@@ -1,0 +1,303 @@
+{
+  "as_of": "2026-10-23",
+  "issues": [
+    {
+      "severity": "critical",
+      "ref": "F01",
+      "vendor": "Northwind Payroll",
+      "check": "FINDING_OVERDUE",
+      "detail": "No MFA on admin console (Northwind Payroll) is 37 days overdue; escalation to senior leadership is due.",
+      "action": "Chase the vendor and record the escalation."
+    },
+    {
+      "severity": "high",
+      "ref": "F02",
+      "vendor": "Contoso Cloud",
+      "check": "ESCALATION_MISSING",
+      "detail": "Backups not encrypted (Contoso Cloud) is 34 days overdue and needs escalation to senior leadership; recorded level is owner.",
+      "action": "Escalate to senior leadership now."
+    },
+    {
+      "severity": "high",
+      "ref": "F02",
+      "vendor": "Contoso Cloud",
+      "check": "FINDING_OVERDUE",
+      "detail": "Backups not encrypted (Contoso Cloud) is 34 days overdue; escalation to senior leadership is due.",
+      "action": "Chase the vendor and record the escalation."
+    },
+    {
+      "severity": "high",
+      "ref": "F06",
+      "vendor": "Litware Support",
+      "check": "ACCEPTANCE_EXPIRED",
+      "detail": "The risk acceptance for Weak password policy expired on 2026-09-30.",
+      "action": "Renew with a fresh approval or remediate."
+    },
+    {
+      "severity": "high",
+      "ref": "F07",
+      "vendor": "Proseware Print",
+      "check": "ACCEPTANCE_INVALID",
+      "detail": "Shared admin accounts is marked risk accepted without a complete approval (approver, approval date and expiry).",
+      "action": "Complete the approval or reopen the finding."
+    },
+    {
+      "severity": "high",
+      "ref": "F10",
+      "vendor": "V99",
+      "check": "UNKNOWN_VENDOR",
+      "detail": "Unmapped vendor finding refers to vendor V99, which is not in the vendor list.",
+      "action": "Correct the reference."
+    },
+    {
+      "severity": "medium",
+      "ref": "F03",
+      "vendor": "Fabrikam KYC",
+      "check": "FINDING_OVERDUE",
+      "detail": "Stale access reviews (Fabrikam KYC) is 13 days overdue; escalation to owner is due.",
+      "action": "Chase the vendor and record the escalation."
+    },
+    {
+      "severity": "medium",
+      "ref": "F04",
+      "vendor": "Tailspin Messaging",
+      "check": "NO_DUE_DATE",
+      "detail": "Missing log retention has no due date; the high SLA of 30 days gives 2026-11-09.",
+      "action": "Agree a due date with the vendor."
+    },
+    {
+      "severity": "medium",
+      "ref": "F05",
+      "vendor": "Adatum Analytics",
+      "check": "DUE_BEYOND_SLA",
+      "detail": "No pen test in 18 months: due 2027-01-01 is 153 days after it was opened; the high SLA is 30 days.",
+      "action": "Record an approved extension or bring the date back inside the SLA."
+    },
+    {
+      "severity": "medium",
+      "ref": "F08",
+      "vendor": "Wingtip Travel",
+      "check": "ACCEPTANCE_TOO_LONG",
+      "detail": "The risk acceptance for No DR test evidence runs 2026-10-01 to 2028-01-01, longer than 12 months.",
+      "action": "Shorten the expiry so the risk is reviewed at least annually."
+    },
+    {
+      "severity": "medium",
+      "ref": "F09",
+      "vendor": "Northwind Payroll",
+      "check": "CLOSED_NO_EVIDENCE",
+      "detail": "Outdated TLS configuration was closed on 2026-07-20 with no closure evidence.",
+      "action": "Attach the evidence the vendor provided."
+    }
+  ],
+  "open_findings": [
+    {
+      "id": "F01",
+      "vendor": "V01",
+      "name": "Northwind Payroll",
+      "severity": "critical",
+      "age_days": 52,
+      "days_overdue": 37,
+      "required_level": "senior leadership",
+      "recorded_level": "senior leadership",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F02",
+      "vendor": "V02",
+      "name": "Contoso Cloud",
+      "severity": "high",
+      "age_days": 64,
+      "days_overdue": 34,
+      "required_level": "senior leadership",
+      "recorded_level": "owner",
+      "owner": "R. Iyer"
+    },
+    {
+      "id": "F03",
+      "vendor": "V03",
+      "name": "Fabrikam KYC",
+      "severity": "medium",
+      "age_days": 95,
+      "days_overdue": 13,
+      "required_level": "owner",
+      "recorded_level": "owner",
+      "owner": "R. Iyer"
+    },
+    {
+      "id": "F04",
+      "vendor": "V04",
+      "name": "Tailspin Messaging",
+      "severity": "high",
+      "age_days": 13,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F05",
+      "vendor": "V05",
+      "name": "Adatum Analytics",
+      "severity": "high",
+      "age_days": 83,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F15",
+      "vendor": "V06",
+      "name": "Litware Support",
+      "severity": "high",
+      "age_days": 11,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F17",
+      "vendor": "V08",
+      "name": "Wingtip Travel",
+      "severity": "high",
+      "age_days": 8,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F11",
+      "vendor": "V02",
+      "name": "Contoso Cloud",
+      "severity": "medium",
+      "age_days": 38,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F14",
+      "vendor": "V05",
+      "name": "Adatum Analytics",
+      "severity": "medium",
+      "age_days": 18,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F16",
+      "vendor": "V07",
+      "name": "Proseware Print",
+      "severity": "medium",
+      "age_days": 21,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F10",
+      "vendor": "V99",
+      "name": "V99",
+      "severity": "low",
+      "age_days": 8,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F12",
+      "vendor": "V03",
+      "name": "Fabrikam KYC",
+      "severity": "low",
+      "age_days": 52,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    },
+    {
+      "id": "F13",
+      "vendor": "V04",
+      "name": "Tailspin Messaging",
+      "severity": "low",
+      "age_days": 22,
+      "days_overdue": 0,
+      "required_level": "none",
+      "recorded_level": "none",
+      "owner": "A. Menon"
+    }
+  ],
+  "aging": {
+    "0-30": 7,
+    "31-60": 3,
+    "61-90": 2,
+    ">90": 1
+  },
+  "by_vendor": {
+    "Contoso Cloud": {
+      "open": 2,
+      "overdue": 1,
+      "oldest_days": 64
+    },
+    "Fabrikam KYC": {
+      "open": 2,
+      "overdue": 1,
+      "oldest_days": 95
+    },
+    "Northwind Payroll": {
+      "open": 1,
+      "overdue": 1,
+      "oldest_days": 52
+    },
+    "Adatum Analytics": {
+      "open": 2,
+      "overdue": 0,
+      "oldest_days": 83
+    },
+    "Tailspin Messaging": {
+      "open": 2,
+      "overdue": 0,
+      "oldest_days": 22
+    },
+    "Litware Support": {
+      "open": 1,
+      "overdue": 0,
+      "oldest_days": 11
+    },
+    "Proseware Print": {
+      "open": 1,
+      "overdue": 0,
+      "oldest_days": 21
+    },
+    "V99": {
+      "open": 1,
+      "overdue": 0,
+      "oldest_days": 8
+    },
+    "Wingtip Travel": {
+      "open": 1,
+      "overdue": 0,
+      "oldest_days": 8
+    }
+  },
+  "by_owner": {
+    "R. Iyer": {
+      "open": 2,
+      "overdue": 2,
+      "oldest_days": 95
+    },
+    "A. Menon": {
+      "open": 11,
+      "overdue": 1,
+      "oldest_days": 83
+    }
+  }
+}

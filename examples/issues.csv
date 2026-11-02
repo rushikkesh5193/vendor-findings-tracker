@@ -1,0 +1,12 @@
+severity,finding,vendor,check,detail,action
+critical,F01,Northwind Payroll,FINDING_OVERDUE,No MFA on admin console (Northwind Payroll) is 37 days overdue; escalation to senior leadership is due.,Chase the vendor and record the escalation.
+high,F02,Contoso Cloud,ESCALATION_MISSING,Backups not encrypted (Contoso Cloud) is 34 days overdue and needs escalation to senior leadership; recorded level is owner.,Escalate to senior leadership now.
+high,F02,Contoso Cloud,FINDING_OVERDUE,Backups not encrypted (Contoso Cloud) is 34 days overdue; escalation to senior leadership is due.,Chase the vendor and record the escalation.
+high,F06,Litware Support,ACCEPTANCE_EXPIRED,The risk acceptance for Weak password policy expired on 2026-09-30.,Renew with a fresh approval or remediate.
+high,F07,Proseware Print,ACCEPTANCE_INVALID,"Shared admin accounts is marked risk accepted without a complete approval (approver, approval date and expiry).",Complete the approval or reopen the finding.
+high,F10,V99,UNKNOWN_VENDOR,"Unmapped vendor finding refers to vendor V99, which is not in the vendor list.",Correct the reference.
+medium,F03,Fabrikam KYC,FINDING_OVERDUE,Stale access reviews (Fabrikam KYC) is 13 days overdue; escalation to owner is due.,Chase the vendor and record the escalation.
+medium,F04,Tailspin Messaging,NO_DUE_DATE,Missing log retention has no due date; the high SLA of 30 days gives 2026-11-09.,Agree a due date with the vendor.
+medium,F05,Adatum Analytics,DUE_BEYOND_SLA,No pen test in 18 months: due 2027-01-01 is 153 days after it was opened; the high SLA is 30 days.,Record an approved extension or bring the date back inside the SLA.
+medium,F08,Wingtip Travel,ACCEPTANCE_TOO_LONG,"The risk acceptance for No DR test evidence runs 2026-10-01 to 2028-01-01, longer than 12 months.",Shorten the expiry so the risk is reviewed at least annually.
+medium,F09,Northwind Payroll,CLOSED_NO_EVIDENCE,Outdated TLS configuration was closed on 2026-07-20 with no closure evidence.,Attach the evidence the vendor provided.

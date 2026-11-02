@@ -1,0 +1,285 @@
+{
+  "_note": "Synthetic data for demonstration. Problems are injected on purpose.",
+  "organisation": "ExampleOrg",
+  "vendors": [
+    {
+      "id": "V01",
+      "name": "Northwind Payroll"
+    },
+    {
+      "id": "V02",
+      "name": "Contoso Cloud"
+    },
+    {
+      "id": "V03",
+      "name": "Fabrikam KYC"
+    },
+    {
+      "id": "V04",
+      "name": "Tailspin Messaging"
+    },
+    {
+      "id": "V05",
+      "name": "Adatum Analytics"
+    },
+    {
+      "id": "V06",
+      "name": "Litware Support"
+    },
+    {
+      "id": "V07",
+      "name": "Proseware Print"
+    },
+    {
+      "id": "V08",
+      "name": "Wingtip Travel"
+    }
+  ],
+  "findings": [
+    {
+      "id": "F01",
+      "vendor": "V01",
+      "title": "No MFA on admin console",
+      "severity": "critical",
+      "opened": "2026-09-01",
+      "due": "2026-09-16",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 3
+    },
+    {
+      "id": "F02",
+      "vendor": "V02",
+      "title": "Backups not encrypted",
+      "severity": "high",
+      "opened": "2026-08-20",
+      "due": "2026-09-19",
+      "status": "open",
+      "owner": "R. Iyer",
+      "escalation_level": 1
+    },
+    {
+      "id": "F03",
+      "vendor": "V03",
+      "title": "Stale access reviews",
+      "severity": "medium",
+      "opened": "2026-07-20",
+      "due": "2026-10-10",
+      "status": "open",
+      "owner": "R. Iyer",
+      "escalation_level": 1
+    },
+    {
+      "id": "F04",
+      "vendor": "V04",
+      "title": "Missing log retention",
+      "severity": "high",
+      "opened": "2026-10-10",
+      "due": null,
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F05",
+      "vendor": "V05",
+      "title": "No pen test in 18 months",
+      "severity": "high",
+      "opened": "2026-08-01",
+      "due": "2027-01-01",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F06",
+      "vendor": "V06",
+      "title": "Weak password policy",
+      "severity": "medium",
+      "opened": "2026-03-01",
+      "due": null,
+      "status": "risk_accepted",
+      "owner": "A. Menon",
+      "escalation_level": 0,
+      "acceptance": {
+        "approver": "CISO",
+        "approved_on": "2026-03-20",
+        "expiry": "2026-09-30"
+      }
+    },
+    {
+      "id": "F07",
+      "vendor": "V07",
+      "title": "Shared admin accounts",
+      "severity": "medium",
+      "opened": "2026-04-01",
+      "due": null,
+      "status": "risk_accepted",
+      "owner": "A. Menon",
+      "escalation_level": 0,
+      "acceptance": {
+        "approver": "",
+        "approved_on": "2026-04-10",
+        "expiry": "2027-04-10"
+      }
+    },
+    {
+      "id": "F08",
+      "vendor": "V08",
+      "title": "No DR test evidence",
+      "severity": "low",
+      "opened": "2026-10-01",
+      "due": null,
+      "status": "risk_accepted",
+      "owner": "A. Menon",
+      "escalation_level": 0,
+      "acceptance": {
+        "approver": "CISO",
+        "approved_on": "2026-10-01",
+        "expiry": "2028-01-01"
+      }
+    },
+    {
+      "id": "F09",
+      "vendor": "V01",
+      "title": "Outdated TLS configuration",
+      "severity": "medium",
+      "opened": "2026-05-01",
+      "due": "2026-07-30",
+      "status": "closed",
+      "owner": "A. Menon",
+      "escalation_level": 0,
+      "closed": "2026-07-20"
+    },
+    {
+      "id": "F10",
+      "vendor": "V99",
+      "title": "Unmapped vendor finding",
+      "severity": "low",
+      "opened": "2026-10-15",
+      "due": "2027-04-01",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F11",
+      "vendor": "V02",
+      "title": "Incomplete asset inventory",
+      "severity": "medium",
+      "opened": "2026-09-15",
+      "due": "2026-12-14",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F12",
+      "vendor": "V03",
+      "title": "Policy review overdue",
+      "severity": "low",
+      "opened": "2026-09-01",
+      "due": "2027-02-01",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F13",
+      "vendor": "V04",
+      "title": "Training records incomplete",
+      "severity": "low",
+      "opened": "2026-10-01",
+      "due": "2027-03-01",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F14",
+      "vendor": "V05",
+      "title": "No SIEM alert tuning",
+      "severity": "medium",
+      "opened": "2026-10-05",
+      "due": "2027-01-03",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F15",
+      "vendor": "V06",
+      "title": "Vendor DR plan untested",
+      "severity": "high",
+      "opened": "2026-10-12",
+      "due": "2026-11-11",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F16",
+      "vendor": "V07",
+      "title": "Patch SLA not defined",
+      "severity": "medium",
+      "opened": "2026-10-02",
+      "due": "2026-12-31",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F17",
+      "vendor": "V08",
+      "title": "SOC 2 exceptions",
+      "severity": "high",
+      "opened": "2026-10-15",
+      "due": "2026-11-14",
+      "status": "open",
+      "owner": "A. Menon",
+      "escalation_level": 0
+    },
+    {
+      "id": "F18",
+      "vendor": "V01",
+      "title": "Old subprocessor list",
+      "severity": "low",
+      "opened": "2026-08-01",
+      "due": "2027-01-15",
+      "status": "closed",
+      "owner": "A. Menon",
+      "escalation_level": 0,
+      "closed": "2026-09-10",
+      "closure_evidence": "Updated list received 2026-09-10"
+    },
+    {
+      "id": "F19",
+      "vendor": "V02",
+      "title": "Weak vendor offboarding",
+      "severity": "high",
+      "opened": "2026-06-01",
+      "due": "2026-07-01",
+      "status": "closed",
+      "owner": "A. Menon",
+      "escalation_level": 0,
+      "closed": "2026-06-25",
+      "closure_evidence": "Revised procedure and access removal log"
+    },
+    {
+      "id": "F20",
+      "vendor": "V03",
+      "title": "Shared service account",
+      "severity": "medium",
+      "opened": "2026-05-01",
+      "due": null,
+      "status": "risk_accepted",
+      "owner": "A. Menon",
+      "escalation_level": 0,
+      "acceptance": {
+        "approver": "CISO",
+        "approved_on": "2026-05-15",
+        "expiry": "2027-05-15"
+      }
+    }
+  ]
+}

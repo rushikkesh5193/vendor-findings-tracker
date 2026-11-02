@@ -1,0 +1,8 @@
+{
+  "_note": "Illustrative defaults; tune to your own risk appetite and policy.",
+  "sla_days": {"critical": 15, "high": 30, "medium": 90, "low": 180},
+  "manager_after_days_overdue": {"critical": 7, "high": 14, "medium": 30, "low": 45},
+  "leadership_after_days_overdue": {"critical": 14, "high": 30, "medium": 60, "low": 90},
+  "max_acceptance_months": 12,
+  "aging_buckets_days": [30, 60, 90]
+}
